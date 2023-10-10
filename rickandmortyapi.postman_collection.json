@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "efbca471-c699-4e98-a4e3-df11cdae0e16",
+		"name": "rickandmortyapi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8022226"
+	},
+	"item": [
+		{
+			"name": "/search-character-appearance",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/search-character-appearance?name=Rick+Sanchez",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"search-character-appearance"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Rick+Sanchez"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
